@@ -1,0 +1,93 @@
+.bg1{
+    background-color: rgba(168,215,65,255);
+}
+
+@keyframes right{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(10deg);} 
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 25px;
+    transform: rotate(0deg);
+    transition: 0.4s;
+    
+}
+.btn:hover{
+    /* animation: right 1s; */
+    transform: rotate(6deg);
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 5px 10px black;
+    color: black;
+}
+#icon{
+    color: rgba(168,215,65,255);
+}
+.card{
+    border: none;
+}
+
+.first{
+    transform: rotate(0deg);
+    transition: 0.4s;
+}
+.first:hover{
+    transform: rotate(-1deg);
+}
+#row{
+    background-color: rgba(168,215,65,255);
+}
+.item-wrapper{
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.4s;
+}
+.item-wrapper:hover{
+    transform: rotate(-3deg);
+}
+#item{
+    /* background-color: rgba(238,238,238,255); */
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: 0.4s;
+}
+#item:hover{
+    box-shadow: 0 5px 10px black;
+    transform: rotate(-3deg);
+}
+.buy{
+    background-color: rgba(168,215,65,255) ;
+    color: black;
+}
+#box{
+    overflow: hidden;
+    position: relative;
+}
+#you{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    color: rgba(168,215,65,255);
+}
+#you:hover{
+    color: rgba(168,215,65,0.8);
+}
+textarea{
+    height: 200px;
+}
+input{
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+@media(max-width:1189px)
+{
+    .personalinfo
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .skills
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width:1049px)
+{
+    .information h3 
+    {
+        font-size: 25px;
+    }
+    .information h1 
+    {
+        font-size: 30px;
+    }
+    .information p 
+    {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:896px)
+{
+    .home .container 
+    {
+        padding: 0px;
+        margin-left: 10px;
+        /* line-height: 30px; */
+    }
+    .profileimage
+    {
+        margin-left: 80px;
+    }
+}
+@media (max-width:767px)
+{
+
+    .nav.hide
+    {
+        left: -400px;
+    }
+
+    .main-content
+    {
+        padding-left: 0;
+    }
+    .nav-toggler 
+    {
+        display: block;
+        color: white;
+        /* margin-right: 100%; */
+    }
+    .nav
+    {
+        width: 50%;
+        height: 100vh;
+        left:-380px;
+        overflow: hidden;
+        background-color: rgba(159, 159, 247,.8);  
+    }
+    
+    .nav.active
+    {
+        left: 0px;
+        transition: 1s ease all;  
+
+    }
+    .nav .navbar ul
+    {
+        width: 100%;
+        height: 300px;
+        top: 0;
+        right: 0;
+        left: 270px;
+    }
+    .nav .navbar ul li
+    {
+        width: 100%;
+        padding: 10px;
+        top: 60px;
+    }
+    .nav ul li a
+    {
+        line-height: 40px;
+        width: 100%;
+        height: 100%;
+    }
+    .project-gallery .site1
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .row1 .input-name
+    {
+        flex-basis: 100%;
+    }
+    .btn1
+    {
+        margin: 0px 35%;
+        margin-bottom:10px ;
+    }
+    .contact-container
+    {
+        padding-top:60px ;
+        height: auto;
+    }
+    .input-name
+    {
+        margin-bottom: 20px;
+    }
+    label
+    {
+        font-size: 14px;
+    }
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label
+    {
+        top: -30px;
+    }
+    .information h3
+    {
+        font-size: 25px;
+    }
+    
+        
+    
+}
+@media (max-width:570px)
+{
+    .profileimage
+    {
+        margin-left:130px;
+    }
+    .profileimage img 
+    {
+        height: 200px;
+        width: 200px;
+        margin-left :40px;
+    }
+    .socialicon a
+    {
+        padding-right: 5px;
+        font-size:18px;
+    }
+    .socialicon
+    {
+        margin-bottom:100px;
+    }
+    .information h3
+    {
+        font-size: 20px;
+    }
+    .information h1
+    {
+        font-family:none;
+        font-size:40px;
+    }
+    .information p
+    {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .btn a 
+    {
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size: 9px;
+        font-weight:500;
+        text-align:none;
+        float:start;
+    }
+    .btn
+    {
+        margin-top:20px;
+        margin-left:50px;
+        flex-basis:100%;
+    }
+    .section-title h2
+    {
+    font-size: 30px;
+    font-family: none;
+    letter-spacing: 1px;
+    }
+    
+    
+    .about-self h1
+    {
+    font-size: 25PX;
+    }
+
+    .about-self p 
+    {
+    font-size: 10px;
+    }
+
+    .personalinfo h3 {
+    font-size: 25px;
+    font-family: none;
+    }
+
+    .skills h3 
+    {
+    font-family: none;
+    }
+    .info
+    {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 20px 10px;
+    }
+    .home
+    {
+    background-image: url(/image/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    }
+
+
+}
+
+
