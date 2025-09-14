@@ -223,10 +223,11 @@
     }
     .home
     {
-    background-image: url(/image/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-image: url("image/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
     }
 
 
 }
+
 
 
