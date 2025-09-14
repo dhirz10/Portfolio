@@ -59,7 +59,7 @@
 
 .nav {
     width: 270px;
-    background-image: url("/image/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg");
+    background-image: url("image/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg");
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -620,6 +620,7 @@ button:hover {
 .row1 .input-name {
     flex-basis: 48%;
 }
+
 
 
 
