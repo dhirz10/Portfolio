@@ -189,7 +189,7 @@
 
 /* ------------home section--------- */
 .home {
-    background-image: url(/image/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-image: url("image/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -620,6 +620,7 @@ button:hover {
 .row1 .input-name {
     flex-basis: 48%;
 }
+
 
 
 
